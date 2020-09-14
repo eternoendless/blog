@@ -1,0 +1,35 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+theme: "casper"
+title: "Pablo Borowicz"
+copyright: "&copy; 2018–2020 — All rights reserved"
+
+menu:
+  main:
+    -
+      identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 10
+    -
+      identifier: "about"
+      name: "About me"
+      url: "/about/"
+      weight: 20
+    -
+      name: "GitHub"
+      url: "https://github.com/eternoendless"
+      weight: 30
+
+params:
+  author: "Pablo Borowicz"
+  authorLocation: "Paris, France"
+  authorBio: "Developing for the web since 1998."
+  authoravatar: "/images/profile.jpg"
+  description: "Developing for the web since 1998"
+  githubName: "eternoendless"
+  linkedinName: "pabloborowicz"
+  hideHugoSupport: true
+
+permalinks:
+  post: "/:slug/"
