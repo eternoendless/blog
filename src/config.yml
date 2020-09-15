@@ -22,6 +22,7 @@ menu:
       weight: 30
 
 params:
+  googleAnalyticsUserID: "UA-178062842-1"
   author: "Pablo Borowicz"
   authorBio: "Pablo Borowicz is a veteran engineer and team leader who develops for the web since 1998."
   authoravatar: "/images/profile.jpg"
