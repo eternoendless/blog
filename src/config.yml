@@ -23,10 +23,9 @@ menu:
 
 params:
   author: "Pablo Borowicz"
-  authorLocation: "Paris, France"
-  authorBio: "Developing for the web since 1998."
+  authorBio: "Pablo Borowicz is a veteran engineer and team leader who has been developing for the web since 1998."
   authoravatar: "/images/profile.jpg"
-  description: "Developing for the web since 1998"
+  description: "Thoughts on software development"
   githubName: "eternoendless"
   linkedinName: "pabloborowicz"
   hideHugoSupport: true
