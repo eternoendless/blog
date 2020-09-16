@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refactoring on Pablo Borowicz</title>
+    <link>https://www.pabloborowicz.com/tags/refactoring/</link>
+    <description>Recent content in Refactoring on Pablo Borowicz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018–2020 — All rights reserved</copyright>
+    <lastBuildDate>Thu, 06 Sep 2018 13:10:36 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.pabloborowicz.com/tags/refactoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On houses, debt and software rewrites</title>
+      <link>https://www.pabloborowicz.com/on-houses-debt-and-software-rewrites/</link>
+      <pubDate>Thu, 06 Sep 2018 13:10:36 +0200</pubDate>
+      
+      <guid>https://www.pabloborowicz.com/on-houses-debt-and-software-rewrites/</guid>
+      <description>Most non-developers usually struggle to understand the need for software refactoring and rewrites. They ask: “It’s been working fine until now, why change it? And why the heck would I spend good money to rebuild something that I already have?”.
+The short answer is, software behaves like a depreciable asset in accounting, or like a fruit. In time, it will progressively rot and lose its value, no matter what you do.</description>
+    </item>
+    
+  </channel>
+</rss>
