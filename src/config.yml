@@ -31,6 +31,8 @@ params:
   linkedinName: "pabloborowicz"
   hideHugoSupport: true
 
+disqusShortname: pabloborowicz
+
 permalinks:
   post: "/:slug/"
 
