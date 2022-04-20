@@ -2,7 +2,7 @@ baseURL: "https://www.pabloborowicz.com"
 languageCode: "en-us"
 theme: "casper"
 title: "Pablo Borowicz"
-copyright: "&copy; 2018–2020 — All rights reserved"
+copyright: "&copy; since 2018 — All rights reserved"
 
 menu:
   main:
