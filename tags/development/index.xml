@@ -7,15 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; since 2018 — All rights reserved</copyright>
-    <lastBuildDate>Thu, 06 Sep 2018 13:10:36 +0200</lastBuildDate><atom:link href="https://www.pabloborowicz.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pabloborowicz.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why You Should Be Commenting Your Code</title>
+      <link>https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/</guid>
+      <description>Many developers shun inline comments because they don&amp;rsquo;t understand when and where they are useful. They are missing out on incredible value.</description>
+    </item>
+    
     <item>
       <title>On houses, debt and software rewrites</title>
       <link>https://www.pabloborowicz.com/on-houses-debt-and-software-rewrites/</link>
       <pubDate>Thu, 06 Sep 2018 13:10:36 +0200</pubDate>
       
       <guid>https://www.pabloborowicz.com/on-houses-debt-and-software-rewrites/</guid>
-      <description>Most non-developers usually struggle to understand the need for software refactoring and rewrites. They ask: “It’s been working fine until now, why change it? And why the heck would I spend good money to rebuild something that I already have?”.
-The short answer is, software behaves like a depreciable asset in accounting, or like a fruit. In time, it will progressively rot and lose its value, no matter what you do.</description>
+      <description>Most non-developers struggle to understand the need for software refactoring. Imagine if you were constantly rebuilding your house.</description>
     </item>
     
   </channel>

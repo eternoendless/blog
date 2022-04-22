@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="/images/code-comments.jpg"/>
+    
+
+
+
+<meta name="twitter:title" content="Why You Should Be Commenting Your Code"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@"/>
+
+
+
+  	<meta property="og:title" content="Why You Should Be Commenting Your Code &middot; Pablo Borowicz" />
+  	<meta property="og:site_name" content="Pablo Borowicz" />
+  	<meta property="og:url" content="https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/" />
+
+    
+       <meta property="og:image" content="/images/code-comments.jpg"/>
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2022-04-22T00:00:00Z" />
+
+    
+    <meta property="article:tag" content="Best Practices" />
+    
+    <meta property="article:tag" content="Development" />
+    
+    <meta property="article:tag" content="Documentation" />
+    
+    <meta property="article:tag" content="PHP" />
+    
+    
+
+    <title>Why You Should Be Commenting Your Code &middot; Pablo Borowicz</title>
+
+    
+    <meta name="description" content="Many developers shun inline comments because they don&amp;rsquo;t understand when and where they are useful. They are missing out on incredible value." />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/style/main.9a2283841cb1db6b81de33b78f3ac9faab481bc875188eec6c69722b922bd976.css" />
+
+    
+
+    
+
+    
+      
+          <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Pablo Borowicz" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.97.0" />
+
+    <link rel="canonical" href="https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name":  null 
+    },
+    "author": {
+        "@type": "Person",
+        "name":  null ,
+        
+        "url":  null ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+            
+        ],
+        "description": "I'm Pablo Borowicz, a veteran software developer and team leader, working with web technologies since 1998."
+        
+    },
+    "headline": "Why You Should Be Commenting Your Code",
+    "name": "Why You Should Be Commenting Your Code",
+    "wordCount":  2866 ,
+    "timeRequired": "PT14M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/",
+    "datePublished": "2022-04-22T00:00Z",
+    "dateModified": "2022-04-22T00:00Z",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.pabloborowicz.com/images/code-comments.jpg",
+        "width": 3000,
+        "height": 1445
+    },
+    
+    "keywords": "Best Practices, Development, Documentation, PHP",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Y6HWCZ6XJ"></script>
+        <script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-1Y6HWCZ6XJ');
+        </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/">Home</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/about/">About me</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://github.com/eternoendless">GitHub</a>
+            </li>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+    
+    
+        
+    
+  <header class="main-header post-head" style="background-image: url(/images/code-comments.jpg)">
+    <nav class="main-nav overlay clearfix">
+
+    
+        
+            <a class="blog-logo" href="https://www.pabloborowicz.com"><span class="logo"></span>Pablo Borowicz</a>
+        
+    
+
+    
+        <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+    
+</nav>
+      <div class="main-header-content vertical">
+          <h1 class="post-title">Why You Should Be Commenting Your Code</h1>
+      </div>
+  </header>
+
+
+<main class="content content-single" role="main">
+
+  <article class="post post">
+
+    <header class="post-header">
+        
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2022-04-22T00:00:00Z">
+            Apr 22, 2022
+          </time>
+        
+        
+          — <span class="num-comments">
+            <a href="https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/#disqus_thread"></a>
+          </span>
+        
+        </section>
+    </header>
+
+    <section class="post-content">
+      <blockquote class="big"><p>&ldquo;A developer&rsquo;s job isn&rsquo;t done until the code is properly covered by unit tests, peer reviewed, and documented.&rdquo;</p>
+</blockquote>
+<p>Most candidates I have interviewed for developer positions have enthusiastically agreed with the statement above. Of course, most of them were also lying.</p>
+<p>We developers, like most humans, are fundamentally reward-driven. As long as we can get away with it, we will always choose to skip the boring stuff and go straight to the interesting part. For most developers, coding is definitely more rewarding than testing, reviewing, or –god forbid– <em>documenting</em>. So I&rsquo;m not surprised these activities receive less attention.</p>
+<p>To make matters worse, writing proper, discrete technical documentation is not for everyone. It can take a lot of time, requires good written expression skills, and writing for humans can be frustrating for people who are used to writing for computers. I totally understand why most developers don&rsquo;t enjoy it. And admittedly, for many projects, it&rsquo;s probably not even worth the time.</p>
+<p>Inline comments, however, are a whole different story. To this day, I&rsquo;m still amazed by how much developers will go out of their way to avoid them, even though they provide incredible value for a ridiculously small investment.</p>
+<h2 id="inline-comments-are-more-valuable-than-you-think">Inline comments are more valuable than you think</h2>
+<p>According to my experience, most developers don&rsquo;t understand the value of good comments, simply because they aren&rsquo;t used to seeing them. Many developers don&rsquo;t understand how to write good comments and where and when they are valuable, so they tend to write low-quality comments or no comments at all. This provides a bad example to other developers, who will go on to reproduce this bad practice, further spreading both bad comments and the general perception that comments are generally worthless.</p>
+<p>Since no one wants to invest time in pointless activities, developers will find any excuse to avoid writing comments when asked to do so. One of the most common is this particularly well-known sophism:</p>
+<p><em>&ldquo;The best documentation is no documentation: code should be self-explanatory.&rdquo;</em></p>
+<p>Of course, we can all agree that writing clear and readable code is very important and an excellent practice – I certainly recommend it. But even the most clear and readable code can hardly be &ldquo;self-explanatory&rdquo;. It&rsquo;s always missing a critical piece of information: <strong>context</strong>.</p>
+<h2 id="code-only-tells-a-part-of-the-story">Code only tells a part of the story</h2>
+<p>Be honest and tell me this has never happened to you: you had to debug a piece of code that you had written some time ago, but you found yourself scratching your head, unable to remember why you implemented it in that specific way. What made perfect sense in the past, now seemed weird and convoluted. You just couldn&rsquo;t remember what was supposed to happen when the parameter <code>resolveParameters</code> was set to <code>false</code>. Yes, it is clear that setting it to false means it won&rsquo;t &ldquo;resolve parameters&rdquo;. That is <em>self-explanatory</em>. But what does it mean, not to &ldquo;resolve parameters&rdquo;? What happens exactly when parameters are not resolved? Somewhere in your mind you knew, you were certain, but you just couldn&rsquo;t remember. So you ended up spending an hour browsing your own code before you were able to understand. If only you had written that down somewhere&hellip;</p>
+<p>No matter how high level and verbose your language of choice is, how well-chosen your variable names are, how domain-oriented your architecture is, <strong>programs still are instructions written in computer-speak</strong>, meant to guide a computer into performing a task. They will never be fully self-documenting, not only because developers are not computers (at least not for now), but because code describes <strong>how</strong> to perform a task, but not <strong>why</strong> it has to be performed, <strong>the context</strong> in which it is expected to be performed, the <strong>side effects</strong> of performing it, and <strong>the reasons</strong> behind that specific implementation.</p>
+<p>This is where the value of good documentation kicks in. Code only tells a part of the story: the instructions to perform a task. Documentation is there to fill in the gaps and draw the full picture. Without it, contextual information is lost, and once the original developer has forgotten about it (or left the company), it&rsquo;s gone. You can still attempt to get some of it back through the unreliable, time-consuming art of reverse-engineering&hellip; as long as you have the time, the skills, and all the code at your disposal.</p>
+<p>Yes, most projects don&rsquo;t need a full-blown discrete technical documentation. But good inline comments can provide the right amount of documentation that will help you and your project.</p>
+<p>Let&rsquo;s see are some concrete examples now.</p>
+<h2 id="describing-your-components">Describing your components</h2>
+<p>One of the things I&rsquo;m very insistent about in code review is having every single class described in a Docblock header. A simple, concise description requires little effort to write, but provides numerous benefits. In fact, the more complex or abstract the concept behind a class is, the greater the benefits of having a good class description.</p>
+<p>The most obvious reason to describe your component is to help developers understand what its purpose is (and optionally, how to use it), without having to resort to guesswork or code reverse-engineering.</p>
+<p>This is helpful for developers working with your component, but I also find it extremely useful to remove cognitive friction when performing code review: having understood the author&rsquo;s intent, the reviewer can focus on analyzing the implementation, instead of wasting time trying figure out what the author was going for.</p>
+<p>In general, a good description should be limited to stating the class&rsquo;s purpose or &ldquo;responsibility&rdquo;. Keep it short: one or two lines should be more than enough. If you want to provide usage instructions, you can do it below the description, but never <em>instead</em> of it. A well-designed component should be usable in black-box mode, without ever requiring any knowledge about how it works internally. A good description should never dwell into the details of its implementation. You can always add that information inside the class&rsquo; body, if needed.</p>
+<p>Take this example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Division</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/* ... */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>What is the purpose of this class? Does it describe a division within a company or army? Perhaps a group of teams in a soccer league? Or is a separator between two components on an interface? We can&rsquo;t know without looking at the class&rsquo; code.</p>
+<p>A good description makes it outright clear:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Computes the division between two decimal numbers.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Division</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">/* ... */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Most IDEs provide pop-up information about components on hover. By adding a description in the class Docblock header, a developer seeing the component in use won&rsquo;t even need to open up the component&rsquo;s file to understand it: they only need to hover on the component&rsquo;s name and see its description pop up.</p>
+<h3 id="its-useful-for-you-too">It&rsquo;s useful for you, too</h3>
+<p>Good descriptions not only help others, they can also help <em>you</em>. Writing a description before you start implementing a class is a wonderful <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber duck</a> design exercise. The simple task of putting the class&rsquo; responsibility into words helps clarify its responsibility, and even find better class names.</p>
+<p>Here is an example of how adding description headers can help you shape your code for the better. Let&rsquo;s say I have a form with user profile information whose data I need to manage. For that, I created this class:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Manages users&#39; data
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserDataManger</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">/* ... */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>A &ldquo;UserDataManager&rdquo;. It manages users&rsquo; data all right&hellip; but the class name and description don&rsquo;t feel quite right. A class with a single, well-understood responsibility should be easily described in one single phrase. In this case I managed to pull up a simple phrase, but it feels a little vague. This is usually a telling sign that the class&rsquo; responsibility is not clear enough to me.</p>
+<p>One of the techniques I use to help me write good descriptions is keep an eye out for meaningless keywords and expressions like &ldquo;manage&rdquo;, &ldquo;handle&rdquo;, or &ldquo;data&rdquo;, because they are generic terms that usually hide important details. And as we all know, the devil hides in the details. <em>&ldquo;Manages users&rsquo; data&rdquo;</em> can mean a lot of things. Does it validate the data? What data? Or does it save it? Maybe retrieve it? From where? A good description is informative, precise, and unequivocal: <strong>&ldquo;Validates, saves and retrieves user profile information from database&rdquo;</strong> seems a much better choice.</p>
+<p>Okay, now we&rsquo;re getting somewhere, but we&rsquo;re not quite done. Whenever a description is too long, or if it contains the word &ldquo;and&rdquo;, it usually means that the class has <a href="https://en.wikipedia.org/wiki/Single-responsibility_principle">too many responsibilities</a> and needs to be redesigned. According to that description, the class clearly does too many things. If I cut the validation part out into an independent <code>Validator</code>, we end up with a more clearly-trimmed scope: <strong>&ldquo;Saves and retrieves user profile information from database&rdquo;</strong>. This description still contains the word &ldquo;and&rdquo;, but it automatically makes me think of a common pattern: <em>repository</em>. So I can now rename the class and describe it accordingly:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Contains profile information for all users
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserProfileRepository</span>
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#75715e">/* ... */</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>In short, putting a class&rsquo; responsibility in words helps <em>you</em> make sure that your code is well-designed, and <em>others</em> understand what you meant it to do in the first place.</p>
+<h2 id="describing-class-members">Describing class members</h2>
+<p>Another part that is often overlooked from documentation class members like attributes and functions. I personally suggest documenting <em>everything</em>, including private members. But if you need to choose, public class members are the ones that should be documented first – these constitute the public API others will be most in contact with.</p>
+<p>Many people in the PHP world seem to believe that the main utility of Phpdoc headers was to enable type hints for parameters and return values, back in the day when these weren&rsquo;t supported by the language itself. Now that PHP supports type hints everywhere, they argue, they are useless and should be removed. This is far from true.</p>
+<p>The primary purpose of Docblocks is not type hinting, but <em>description</em>. Similarly to class descriptions, well-described class members help developers understand how the component works and how to use it properly. A well-designed component shouldn&rsquo;t require developers to reverse-engineer its source code to understand how it works. For developers using an IDE, good documentation allows them to get the information they need to understand your components without having to inspect their code.</p>
+<p>Let&rsquo;s see an example. Take this simple public method:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">addStrings</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $number1,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $number2,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">bool</span> $fractional <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>)<span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>
+</span></span></code></pre></div><p>Just by reading its signature, you can have a general idea of what it does&hellip; or <em>can</em> you? It adds two strings, for sure. But what does that mean, precisely? Does it concatenate or perform an addition? And what is that <code>$fractional</code> flag for? Without any comments, you&rsquo;d <em>need</em> to read the source code to answer those questions, and understand how to use this method. <em>&ldquo;Read the f-ing code&rdquo;</em> is never the answer.</p>
+<p>Now, by adding a little text, this becomes a lot clearer:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  * Performs addition of two decimal numbers.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  *
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  * @param string $number1 Base number as a string
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  * @param string $number2 The addend number as a string
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  * @param bool $fractional [default=false]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  *   If true, the numbers will be interpreted as the fractional part of 
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  *   a number (padded with trailing zeroes).
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  *   Otherwise, they will be interpreted as the integer part
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  *   (padded with leading zeroes).
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  *
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  * @return string The result of the addition.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  * 
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  * @throws NotANumberException if one of the numbers cannot be interpreted 
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  *   as a decimal number.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">addStrings</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $number1,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $number2,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">bool</span> $fractional <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>)<span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>
+</span></span></code></pre></div><p>In the example above, we&rsquo;re describing the method&rsquo;s <strong>responsibility</strong> (what it is <em>for</em>), the <strong>content</strong> (not just type) of the return value, the <strong>meaning</strong> of each parameter, <strong>how</strong> they work together to affect the final result, and <strong>what to expect</strong> in case of errors.</p>
+<p>Many developers just assume that their code is self-documenting, and therefore the meaning of a parameter or return value is obvious. It might be obvious to them at the time (until they forget), but not to other people. As a golden rule, I believe it is better to repeat the obvious than to risk leaving it open to interpretation, misunderstanding, and the errors that ensue.</p>
+<p>Like with class descriptions, it is best to avoid describing the details of the implementation in header blocks, unless they are important to understand how to use the component. Method headers are intended to help understand <em>meaning</em> and <em>usage</em>, not implementation. These details can be described inline within the method&rsquo;s body as a guide for developers trying to understand or debug the code.</p>
+<p>The example above focuses on methods, but I encourage you to document your classes&rsquo; constants and attributes as well, to explain what kind of content they hold and, above all, <em>why</em>.</p>
+<p>Here is an example of a private attribute whose name is &ldquo;self-documenting&rdquo; in terms of what it contains, but that requires a comment to understand why it is needed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Maximum safe string size in order to be confident that we won&#39;t
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * overflow the max int size when performing math operations.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * @var int
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#a6e22e">int</span> $maxSafeIntStringSize;
+</span></span></code></pre></div><h2 id="describing-implementation-choices-quirks-and-reasoning">Describing implementation choices, quirks, and reasoning</h2>
+<p>Inline comments are most commonly used outside Docblocks to explain the meaning of a line or a group of lines.</p>
+<p>The golden rule for writing good inline comments is to use your common sense. You don&rsquo;t need to explain every single line of code. Instead, add comments to explain what is not self-evident and remains hiding beneath the instruction.</p>
+<p>Explain <em>&ldquo;what&rdquo;</em> the instruction does only when the instruction itself is difficult to understand.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#75715e">// pad the partial result with as many zeros as performed steps
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>$padding <span style="color:#f92672">=</span> <span style="color:#a6e22e">str_pad</span>(<span style="color:#e6db74">&#39;&#39;</span>, $stepNumber, <span style="color:#e6db74">&#39;0&#39;</span>);
+</span></span><span style="display:flex;"><span>$partialResult <span style="color:#f92672">=</span> $padding <span style="color:#f92672">.</span> $partialResult;
+</span></span></code></pre></div><p>In most cases, however, good comments explain <em>&ldquo;why&rdquo;</em> that piece of code exists, making the author&rsquo;s intent explicit when it wouldn&rsquo;t be immediately evident otherwise:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ($topNumberLength <span style="color:#f92672">&lt;</span> $bottomNumberLength) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// multiplication is commutative, and this algorithm
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// performs better if the bottom number is shorter.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">multiplyStrings</span>($bottomNumber, $topNumber);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Intent is often missing in the code: you can know what a code does, but not <em>why</em>. Without making the reasoning explicit, it can only be inferred by performing reverse-engineering, leading to the oh-so-common situation where a developer makes an educated guess, then introduces a bug because they had guessed wrong.</p>
+<h2 id="describe-test-cases">Describe test cases</h2>
+<p>Tests –in case you are actually writing them– are another place where descriptions go a long way to making them understandable.</p>
+<p>A test case is a set of instructions that provide the information of <em>how</em> a test is to be performed. It performs a series of assertions that a developer most likely is able to read and understand. However, when a test fails, how can you know if the bug lies in the tested component, or if it&rsquo;s the test that is faulty?</p>
+<p>Without a good test description, developers need to reverse-engineer the test to figure out the reasoning behind it – once again, a tedious, error-prone task. A good test description, however, should provide enough information about <em>intent</em> to help developers understand what the test&rsquo;s author was attempting to verify in the first place.</p>
+<p>I personally like the Gherkin syntax to explain test cases. Here is an example of that in a Docblock header a PhpUnit test case:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Given a decimal number
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * When rounding it to a target precision using the ceiling algorithm
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Then the resulting number should have at most &lt;precision&gt; number of decimals
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * And it should be rounded to positive infinity if its original precision
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> *     was larger than the target one
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> *
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * @dataProvider provideCeilTestCases
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">testItPerformsCeilRounding</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $decimalNumber, 
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">int</span> $precision, 
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $expectedResult
+</span></span><span style="display:flex;"><span>)<span style="color:#f92672">:</span> <span style="color:#a6e22e">void</span>
+</span></span></code></pre></div><p>While we are at it, even though it&rsquo;s not strictly about comments, I strongly suggest adding dedicated error messages to your assertions. This has a double purpose: it provides developers with an explanation of the underlying meaning of the assertion, and a more meaningful error message if the assertion fails.</p>
+<p>Here is an example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">testItDividesNumbers</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $number1,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $number2,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $expectedResult
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">/* ... */</span>
+</span></span><span style="display:flex;"><span>    $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">assertSame</span>(
+</span></span><span style="display:flex;"><span>        $expectedResult,
+</span></span><span style="display:flex;"><span>        $actualResult,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;Failed asserting that </span><span style="color:#e6db74">$number1</span><span style="color:#e6db74"> / </span><span style="color:#e6db74">$number2</span><span style="color:#e6db74"> = </span><span style="color:#e6db74">$expectedResult</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="final-words">Final words</h2>
+<p>Before we finish, I would like get back to the &ldquo;self-documenting code needs no documentation&rdquo; sophism I mentioned at the beginning of this article. Many developers support this argument together with this other apothegm:</p>
+<p><em>&ldquo;Inline documentation should be avoided because it can fall aut of sync the code whenever one is modified but not the other.&rdquo;</em></p>
+<p>To people waving this argument as an excuse to avoid documenting their code, I say:</p>
+<p>Whenever you modify or refactor a component, you also update its tests, as well as any other places where your component is used, right? I have never heard anyone complain about that. Why should documentation be any different?</p>
+<p>I hope this article has helped you understand that the small cost of good comments pays off enormously in the different ways they can benefit your projects, not only by improving collaboration through less friction and knowledge sharing, but also by helping <em>you</em> improve the overall quality of your code.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+      <section class="labels">
+          Topics:
+      
+          <span class="post-tag small"><a href="https://www.pabloborowicz.com/tags/best-practices/">#Best Practices</a></span>
+      
+          <span class="post-tag small"><a href="https://www.pabloborowicz.com/tags/development/">#Development</a></span>
+      
+          <span class="post-tag small"><a href="https://www.pabloborowicz.com/tags/documentation/">#Documentation</a></span>
+      
+          <span class="post-tag small"><a href="https://www.pabloborowicz.com/tags/php/">#PHP</a></span>
+      
+      </section>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+<section class="author">
+  <h4>About the author</h4>
+  
+  <p>I&#39;m Pablo Borowicz, a veteran software developer and team leader, working with web technologies since 1998.<br><a href="https://www.pabloborowicz.com/about/">More about me</a></p>
+  
+  <div class="author-meta">
+    
+    
+  </div>
+</section>
+
+
+
+
+      
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "https:\/\/www.pabloborowicz.com\/why-you-should-be-commenting-your-code\/";  
+this.page.identifier = "https:\/\/www.pabloborowicz.com\/why-you-should-be-commenting-your-code\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://pabloborowicz.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//pabloborowicz.disqus.com/count.js" async></script>
+
+
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Pablo Borowicz</a> &copy; since 2018 — All rights reserved</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+
