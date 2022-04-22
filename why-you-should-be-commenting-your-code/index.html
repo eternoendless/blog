@@ -103,7 +103,7 @@
     },
     "headline": "Why You Should Be Commenting Your Code",
     "name": "Why You Should Be Commenting Your Code",
-    "wordCount":  2866 ,
+    "wordCount":  2864 ,
     "timeRequired": "PT14M",
     "inLanguage": {
       "@type": "Language",
@@ -233,8 +233,8 @@
     <section class="post-content">
       <blockquote class="big"><p>&ldquo;A developer&rsquo;s job isn&rsquo;t done until the code is properly covered by unit tests, peer reviewed, and documented.&rdquo;</p>
 </blockquote>
-<p>Most candidates I have interviewed for developer positions have enthusiastically agreed with the statement above. Of course, most of them were also lying.</p>
-<p>We developers, like most humans, are fundamentally reward-driven. As long as we can get away with it, we will always choose to skip the boring stuff and go straight to the interesting part. For most developers, coding is definitely more rewarding than testing, reviewing, or –god forbid– <em>documenting</em>. So I&rsquo;m not surprised these activities receive less attention.</p>
+<p>Most candidates I have interviewed for developer positions have enthusiastically agreed with the statement above. In theory, that is.</p>
+<p>Reality check: we developers, like most humans, are fundamentally reward-driven. As long as we can get away with it, we will always choose to skip the boring stuff and go straight to the interesting part. For most developers, coding is definitely more rewarding than testing, reviewing, or –god forbid– <em>documenting</em>. So I&rsquo;m not surprised these activities receive less attention.</p>
 <p>To make matters worse, writing proper, discrete technical documentation is not for everyone. It can take a lot of time, requires good written expression skills, and writing for humans can be frustrating for people who are used to writing for computers. I totally understand why most developers don&rsquo;t enjoy it. And admittedly, for many projects, it&rsquo;s probably not even worth the time.</p>
 <p>Inline comments, however, are a whole different story. To this day, I&rsquo;m still amazed by how much developers will go out of their way to avoid them, even though they provide incredible value for a ridiculously small investment.</p>
 <h2 id="inline-comments-are-more-valuable-than-you-think">Inline comments are more valuable than you think</h2>
@@ -243,15 +243,15 @@
 <p><em>&ldquo;The best documentation is no documentation: code should be self-explanatory.&rdquo;</em></p>
 <p>Of course, we can all agree that writing clear and readable code is very important and an excellent practice – I certainly recommend it. But even the most clear and readable code can hardly be &ldquo;self-explanatory&rdquo;. It&rsquo;s always missing a critical piece of information: <strong>context</strong>.</p>
 <h2 id="code-only-tells-a-part-of-the-story">Code only tells a part of the story</h2>
-<p>Be honest and tell me this has never happened to you: you had to debug a piece of code that you had written some time ago, but you found yourself scratching your head, unable to remember why you implemented it in that specific way. What made perfect sense in the past, now seemed weird and convoluted. You just couldn&rsquo;t remember what was supposed to happen when the parameter <code>resolveParameters</code> was set to <code>false</code>. Yes, it is clear that setting it to false means it won&rsquo;t &ldquo;resolve parameters&rdquo;. That is <em>self-explanatory</em>. But what does it mean, not to &ldquo;resolve parameters&rdquo;? What happens exactly when parameters are not resolved? Somewhere in your mind you knew, you were certain, but you just couldn&rsquo;t remember. So you ended up spending an hour browsing your own code before you were able to understand. If only you had written that down somewhere&hellip;</p>
-<p>No matter how high level and verbose your language of choice is, how well-chosen your variable names are, how domain-oriented your architecture is, <strong>programs still are instructions written in computer-speak</strong>, meant to guide a computer into performing a task. They will never be fully self-documenting, not only because developers are not computers (at least not for now), but because code describes <strong>how</strong> to perform a task, but not <strong>why</strong> it has to be performed, <strong>the context</strong> in which it is expected to be performed, the <strong>side effects</strong> of performing it, and <strong>the reasons</strong> behind that specific implementation.</p>
+<p>Tell me this has never happened to you: you had to debug a piece of code that you had written some time ago, but you found yourself scratching your head, unable to remember why you implemented it in that specific way. What made perfect sense in the past, now seemed weird and convoluted. You just couldn&rsquo;t remember what was supposed to happen when the parameter <code>resolveParameters</code> was set to <code>false</code>. Yes, it is clear that setting it to false means it won&rsquo;t &ldquo;resolve parameters&rdquo;. That is <em>self-explanatory</em>. But what does it mean, not to &ldquo;resolve parameters&rdquo;? What happens exactly when parameters are not resolved? Somewhere in your mind you knew, you were certain, but you just couldn&rsquo;t remember. So you ended up spending an hour browsing your own code before you were able to understand. If only you had written that down somewhere&hellip;</p>
+<p>No matter how high-level and verbose your language of choice is, how well-chosen your variable names are, how domain-oriented your architecture is, <strong>programs still are instructions written in computer-speak</strong>, meant to guide a computer into performing a task. They will never be fully self-documenting, not only because developers are not computers (at least not for now), but because code describes <strong>how</strong> to perform a task, but not <strong>why</strong> it has to be performed, <strong>the context</strong> in which it is expected to be performed, the <strong>side effects</strong> of performing it, and <strong>the reasons</strong> behind that specific implementation.</p>
 <p>This is where the value of good documentation kicks in. Code only tells a part of the story: the instructions to perform a task. Documentation is there to fill in the gaps and draw the full picture. Without it, contextual information is lost, and once the original developer has forgotten about it (or left the company), it&rsquo;s gone. You can still attempt to get some of it back through the unreliable, time-consuming art of reverse-engineering&hellip; as long as you have the time, the skills, and all the code at your disposal.</p>
 <p>Yes, most projects don&rsquo;t need a full-blown discrete technical documentation. But good inline comments can provide the right amount of documentation that will help you and your project.</p>
-<p>Let&rsquo;s see are some concrete examples now.</p>
+<p>Let&rsquo;s see some concrete examples now.</p>
 <h2 id="describing-your-components">Describing your components</h2>
 <p>One of the things I&rsquo;m very insistent about in code review is having every single class described in a Docblock header. A simple, concise description requires little effort to write, but provides numerous benefits. In fact, the more complex or abstract the concept behind a class is, the greater the benefits of having a good class description.</p>
 <p>The most obvious reason to describe your component is to help developers understand what its purpose is (and optionally, how to use it), without having to resort to guesswork or code reverse-engineering.</p>
-<p>This is helpful for developers working with your component, but I also find it extremely useful to remove cognitive friction when performing code review: having understood the author&rsquo;s intent, the reviewer can focus on analyzing the implementation, instead of wasting time trying figure out what the author was going for.</p>
+<p>This is helpful for developers working with your component, but I also find it extremely useful to remove cognitive friction when performing code review: having understood the author&rsquo;s intent, the reviewer can focus on analyzing the implementation, instead of wasting time trying to figure out what the author was going for.</p>
 <p>In general, a good description should be limited to stating the class&rsquo;s purpose or &ldquo;responsibility&rdquo;. Keep it short: one or two lines should be more than enough. If you want to provide usage instructions, you can do it below the description, but never <em>instead</em> of it. A well-designed component should be usable in black-box mode, without ever requiring any knowledge about how it works internally. A good description should never dwell into the details of its implementation. You can always add that information inside the class&rsquo; body, if needed.</p>
 <p>Take this example:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Division</span>
@@ -290,9 +290,9 @@
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>In short, putting a class&rsquo; responsibility in words helps <em>you</em> make sure that your code is well-designed, and <em>others</em> understand what you meant it to do in the first place.</p>
 <h2 id="describing-class-members">Describing class members</h2>
-<p>Another part that is often overlooked from documentation class members like attributes and functions. I personally suggest documenting <em>everything</em>, including private members. But if you need to choose, public class members are the ones that should be documented first – these constitute the public API others will be most in contact with.</p>
+<p>Another part that is often overlooked is documentation for class members like attributes and functions. I personally suggest documenting <em>everything</em>, including private members. But if you need to choose, public class members are the ones that should be documented first – these constitute the public API others will be most in contact with.</p>
 <p>Many people in the PHP world seem to believe that the main utility of Phpdoc headers was to enable type hints for parameters and return values, back in the day when these weren&rsquo;t supported by the language itself. Now that PHP supports type hints everywhere, they argue, they are useless and should be removed. This is far from true.</p>
-<p>The primary purpose of Docblocks is not type hinting, but <em>description</em>. Similarly to class descriptions, well-described class members help developers understand how the component works and how to use it properly. A well-designed component shouldn&rsquo;t require developers to reverse-engineer its source code to understand how it works. For developers using an IDE, good documentation allows them to get the information they need to understand your components without having to inspect their code.</p>
+<p>The primary purpose of Docblocks is not type hinting, but providing a <em>description</em>. Similarly to class descriptions, well-described class members help developers understand how the component works and how to use it properly. A well-designed component shouldn&rsquo;t require developers to reverse-engineer its source code to understand how it works. For developers using an IDE, good documentation allows them to get the information they need to understand components without having to inspect their code.</p>
 <p>Let&rsquo;s see an example. Take this simple public method:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">addStrings</span>(
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">string</span> $number1,
@@ -324,7 +324,7 @@
 </span></span><span style="display:flex;"><span>)<span style="color:#f92672">:</span> <span style="color:#a6e22e">string</span>
 </span></span></code></pre></div><p>In the example above, we&rsquo;re describing the method&rsquo;s <strong>responsibility</strong> (what it is <em>for</em>), the <strong>content</strong> (not just type) of the return value, the <strong>meaning</strong> of each parameter, <strong>how</strong> they work together to affect the final result, and <strong>what to expect</strong> in case of errors.</p>
 <p>Many developers just assume that their code is self-documenting, and therefore the meaning of a parameter or return value is obvious. It might be obvious to them at the time (until they forget), but not to other people. As a golden rule, I believe it is better to repeat the obvious than to risk leaving it open to interpretation, misunderstanding, and the errors that ensue.</p>
-<p>Like with class descriptions, it is best to avoid describing the details of the implementation in header blocks, unless they are important to understand how to use the component. Method headers are intended to help understand <em>meaning</em> and <em>usage</em>, not implementation. These details can be described inline within the method&rsquo;s body as a guide for developers trying to understand or debug the code.</p>
+<p>Like with class descriptions, it is best to avoid describing the details of the implementation in header blocks, unless they are important to understand how to use the component. Method headers are intended to help understand <em>meaning</em> and <em>usage</em>, not implementation. These details can be described within the method&rsquo;s body as a guide for developers trying to understand or debug the code.</p>
 <p>The example above focuses on methods, but I encourage you to document your classes&rsquo; constants and attributes as well, to explain what kind of content they hold and, above all, <em>why</em>.</p>
 <p>Here is an example of a private attribute whose name is &ldquo;self-documenting&rdquo; in terms of what it contains, but that requires a comment to understand why it is needed:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
@@ -351,7 +351,7 @@
 <p>Tests –in case you are actually writing them– are another place where descriptions go a long way to making them understandable.</p>
 <p>A test case is a set of instructions that provide the information of <em>how</em> a test is to be performed. It performs a series of assertions that a developer most likely is able to read and understand. However, when a test fails, how can you know if the bug lies in the tested component, or if it&rsquo;s the test that is faulty?</p>
 <p>Without a good test description, developers need to reverse-engineer the test to figure out the reasoning behind it – once again, a tedious, error-prone task. A good test description, however, should provide enough information about <em>intent</em> to help developers understand what the test&rsquo;s author was attempting to verify in the first place.</p>
-<p>I personally like the Gherkin syntax to explain test cases. Here is an example of that in a Docblock header a PhpUnit test case:</p>
+<p>I personally like the Gherkin syntax to explain test cases. Here is an example of that in a Docblock header from a PhpUnit test case:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#e6db74">/**
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Given a decimal number
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * When rounding it to a target precision using the ceiling algorithm
@@ -382,8 +382,8 @@
 </span></span><span style="display:flex;"><span>    );
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="final-words">Final words</h2>
-<p>Before we finish, I would like get back to the &ldquo;self-documenting code needs no documentation&rdquo; sophism I mentioned at the beginning of this article. Many developers support this argument together with this other apothegm:</p>
-<p><em>&ldquo;Inline documentation should be avoided because it can fall aut of sync the code whenever one is modified but not the other.&rdquo;</em></p>
+<p>Before we finish, I would like to get back to the &ldquo;self-documenting code needs no documentation&rdquo; sophism I mentioned at the beginning of this article. Many developers support this argument together with this other apothegm:</p>
+<p><em>&ldquo;Inline documentation should be avoided because it can fall out of sync with the code whenever one is modified but not the other.&rdquo;</em></p>
 <p>To people waving this argument as an excuse to avoid documenting their code, I say:</p>
 <p>Whenever you modify or refactor a component, you also update its tests, as well as any other places where your component is used, right? I have never heard anyone complain about that. Why should documentation be any different?</p>
 <p>I hope this article has helped you understand that the small cost of good comments pays off enormously in the different ways they can benefit your projects, not only by improving collaboration through less friction and knowledge sharing, but also by helping <em>you</em> improve the overall quality of your code.</p>
@@ -467,6 +467,12 @@ s.setAttribute('data-timestamp', +new Date());
 
   <aside class="read-next">
   
+  
+      <a class="read-next-story prev" style="background-image: url(/images/refactored-house.png)" href="/on-houses-debt-and-software-rewrites/">
+          <section class="post">
+              <h2>On houses, debt and software rewrites</h2>
+          </section>
+      </a>
   
 </aside>
 
