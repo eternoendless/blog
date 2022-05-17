@@ -88,7 +88,7 @@ Here is an example of how adding description headers can help you shape your cod
 /**
  * Manages users' data
  */
-class UserDataManger
+class UserDataManager
 {
    /* ... */
 }
