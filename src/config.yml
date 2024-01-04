@@ -26,7 +26,7 @@ params:
   author: "Pablo Borowicz"
   authorBio: "I'm Pablo Borowicz, a veteran software developer and team leader, working with web technologies since 1998."
   authoravatar: "/images/profile.jpg"
-  description: "Thoughts on software development"
+  description: "Thoughts on software development, life, and everything else"
   githubName: "eternoendless"
   linkedinName: "pabloborowicz"
   hideHugoSupport: true
