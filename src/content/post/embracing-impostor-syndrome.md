@@ -8,7 +8,7 @@ tags:
   - Career
 ---
 
-During my early career, I was often the most skilled, or most experienced tech guy in the room. It provided a great sense of self worth, or importance, that felt naturally pretty awesome. But as I learned later in life, that was a bad thing for my career progression.
+During my early career, I was often the most skilled, or most experienced tech guy in the room. It provided a great sense of self worth, or importance, that naturally felt pretty awesome. But as I learned later in life, that was a bad thing for my career progression.
 
 I started using Internet in the late 1990s - early 2000s, when memes hadn't been invented yet. Instead, you had chain mails, where friends forwarded funny stuff to each other through email. At that time, a friend of mine enjoyed collecting funny motivational phrases, like "You should walk a mile on another man's shoes; that way you'll be a mile away from them and you can keep their shoes," or "Remember that no matter where you are, you'll always be there.". He had set up his email software so that every time he'd send an email his signature would include one of those phrases randomly. 
 
