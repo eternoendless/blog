@@ -1,6 +1,7 @@
 ---
 title: About me
 share: false
+comments: false
 ---
 
 My name is Pablo Borowicz. I live in Paris, France, and I'm a veteran software developer, team leader and manager. I started building stuff for the web for fun in 1998, and I've been doing that professionally since 2003. 
