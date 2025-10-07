@@ -1,3 +1,4 @@
 /src/public/
 /src/resources/
 /.idea/
+/src/.hugo_build.lock
