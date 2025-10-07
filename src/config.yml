@@ -24,9 +24,9 @@ menu:
 params:
   googleAnalyticsUserID: "G-1Y6HWCZ6XJ"
   author: "Pablo Borowicz"
-  authorBio: "I'm Pablo Borowicz, a veteran software developer and team leader, working with web technologies since 1998."
+  authorBio: "I'm Pablo Borowicz, a veteran engineering leader, working with web technologies since 1998."
   authoravatar: "/images/profile.jpg"
-  description: "Thoughts on software development, life, and everything else"
+  description: "Thoughts about software development, leadership, and more"
   githubName: "eternoendless"
   linkedinName: "pabloborowicz"
   hideHugoSupport: true
