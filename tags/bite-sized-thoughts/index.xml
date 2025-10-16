@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; since 2018 — All rights reserved</copyright>
-    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pabloborowicz.com/tags/bite-sized-thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pabloborowicz.com/tags/bite-sized-thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimize for Humans</title>
+      <link>https://www.pabloborowicz.com/optimize-for-humans/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pabloborowicz.com/optimize-for-humans/</guid>
+      <description>If your code confuses people, is is really optimized?</description>
+    </item>
+    
     <item>
       <title>Legacy is Yesterday&#39;s Clean Code</title>
       <link>https://www.pabloborowicz.com/legacy-is-yesterdays-clean-code/</link>
