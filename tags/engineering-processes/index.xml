@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engineering Processes on Pablo Borowicz</title>
+    <link>https://www.pabloborowicz.com/tags/engineering-processes/</link>
+    <description>Recent content in Engineering Processes on Pablo Borowicz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; since 2018 — All rights reserved</copyright>
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pabloborowicz.com/tags/engineering-processes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>There Are No Bugs, Just Undocumented Features</title>
+      <link>https://www.pabloborowicz.com/there-are-no-bugs-just-undocumented-features/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pabloborowicz.com/there-are-no-bugs-just-undocumented-features/</guid>
+      <description>Write your rules down before your product forgets how it&amp;rsquo;s supposed to work.</description>
+    </item>
+    
+  </channel>
+</rss>

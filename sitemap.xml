@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.pabloborowicz.com/tags/best-practices/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/tags/engineering-culture/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/tags/engineering-processes/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/post/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/tags/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/there-are-no-bugs-just-undocumented-features/</loc>
+    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.pabloborowicz.com/tags/career/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pabloborowicz.com/dont-let-your-passion-turn-into-poison/</loc>
-    <lastmod>2025-10-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/</loc>
-    <lastmod>2025-10-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/post/</loc>
-    <lastmod>2025-10-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/tags/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pabloborowicz.com/tags/bite-sized-thoughts/</loc>
@@ -49,9 +61,6 @@
   </url><url>
     <loc>https://www.pabloborowicz.com/embracing-the-impostor-syndrome/</loc>
     <lastmod>2024-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/tags/best-practices/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pabloborowicz.com/tags/documentation/</loc>
     <lastmod>2022-04-22T00:00:00+00:00</lastmod>
