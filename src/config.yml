@@ -22,7 +22,6 @@ menu:
       weight: 30
 
 params:
-  googleAnalyticsUserID: "G-1Y6HWCZ6XJ"
   author: "Pablo Borowicz"
   authorBio: "I'm Pablo Borowicz, a veteran engineering leader. I write about software development, leadership, and more."
   authoravatar: "/images/profile.jpg"
@@ -31,7 +30,12 @@ params:
   linkedinName: "pabloborowicz"
   hideHugoSupport: true
 
-disqusShortname: pabloborowicz
+services:
+  disqus:
+    shortname: pabloborowicz
+  googleAnalytics:
+    id: "G-1Y6HWCZ6XJ"
+
 summaryLength: 15
 
 permalinks:
