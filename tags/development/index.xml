@@ -4,54 +4,45 @@
     <title>Development on Pablo Borowicz</title>
     <link>https://www.pabloborowicz.com/tags/development/</link>
     <description>Recent content in Development on Pablo Borowicz</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; since 2018 — All rights reserved</copyright>
-    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pabloborowicz.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.pabloborowicz.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimize for Humans</title>
       <link>https://www.pabloborowicz.com/optimize-for-humans/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/optimize-for-humans/</guid>
       <description>If your code confuses people, is is really optimized?</description>
     </item>
-    
     <item>
       <title>Legacy is Yesterday&#39;s Clean Code</title>
       <link>https://www.pabloborowicz.com/legacy-is-yesterdays-clean-code/</link>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/legacy-is-yesterdays-clean-code/</guid>
       <description>We love to hate the devs who came before us — forgetting we&amp;rsquo;re next in line.</description>
     </item>
-    
     <item>
       <title>Avoid Dotted Lines in Your Monolith</title>
       <link>https://www.pabloborowicz.com/avoid-dotted-lines-in-your-monolith/</link>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/avoid-dotted-lines-in-your-monolith/</guid>
       <description>Half-measures in code charge interest you never agreed to pay.</description>
     </item>
-    
     <item>
       <title>Why You Should Be Commenting Your Code</title>
       <link>https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/</guid>
       <description>Many developers shun inline comments because they don&amp;rsquo;t understand when and where they are useful. They are missing out on incredible value.</description>
     </item>
-    
     <item>
       <title>On houses, debt and software rewrites</title>
       <link>https://www.pabloborowicz.com/on-houses-debt-and-software-rewrites/</link>
       <pubDate>Thu, 06 Sep 2018 13:10:36 +0200</pubDate>
-      
       <guid>https://www.pabloborowicz.com/on-houses-debt-and-software-rewrites/</guid>
       <description>Most non-developers struggle to understand the need for software refactoring. Imagine if you were constantly rebuilding your house.</description>
     </item>
-    
   </channel>
 </rss>

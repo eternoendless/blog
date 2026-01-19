@@ -4,126 +4,101 @@
     <title>Posts on Pablo Borowicz</title>
     <link>https://www.pabloborowicz.com/post/</link>
     <description>Recent content in Posts on Pablo Borowicz</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; since 2018 — All rights reserved</copyright>
-    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pabloborowicz.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.pabloborowicz.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Plan, Adapt, Repeat</title>
       <link>https://www.pabloborowicz.com/plan-adapt-repeat/</link>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/plan-adapt-repeat/</guid>
       <description>We can&amp;rsquo;t foresee the future, but we still need a plan.</description>
     </item>
-    
     <item>
       <title>Embrace Mistakes — They&#39;re Feedback</title>
       <link>https://www.pabloborowicz.com/embrace-mistakes-theyre-feedback/</link>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/embrace-mistakes-theyre-feedback/</guid>
       <description>A culture that punishes mistakes is one that never learns.</description>
     </item>
-    
     <item>
       <title>Craftsmanship is Good, But You Also Need to Deliver</title>
       <link>https://www.pabloborowicz.com/craftsmanship-is-good-but-you-also-need-to-deliver/</link>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/craftsmanship-is-good-but-you-also-need-to-deliver/</guid>
       <description>Engineering perfection is worthless if you ship too late.</description>
     </item>
-    
     <item>
       <title>There Are No Bugs, Just Undocumented Features</title>
       <link>https://www.pabloborowicz.com/there-are-no-bugs-just-undocumented-features/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/there-are-no-bugs-just-undocumented-features/</guid>
       <description>Write your rules down before your product forgets how it&amp;rsquo;s supposed to work.</description>
     </item>
-    
     <item>
       <title>Don&#39;t Let Your Passion Turn Into Poison</title>
       <link>https://www.pabloborowicz.com/dont-let-your-passion-turn-into-poison/</link>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/dont-let-your-passion-turn-into-poison/</guid>
       <description>If every hill is the hill you die on, your career dies there too — even if you&amp;rsquo;re right.</description>
     </item>
-    
     <item>
       <title>Trust Your Team by Default</title>
       <link>https://www.pabloborowicz.com/trust-your-team-by-default/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/trust-your-team-by-default/</guid>
       <description>Trust is the foundation of high-performing teams. If you can&amp;rsquo;t trust them, no amount of control will ever be enough.</description>
     </item>
-    
     <item>
       <title>Stop Worshipping the 10x Dev</title>
       <link>https://www.pabloborowicz.com/stop-worshipping-the-10x-dev/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/stop-worshipping-the-10x-dev/</guid>
       <description>The most dangerous developer on your team might be your &amp;ldquo;best&amp;rdquo; one.</description>
     </item>
-    
     <item>
       <title>Optimize for Humans</title>
       <link>https://www.pabloborowicz.com/optimize-for-humans/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/optimize-for-humans/</guid>
       <description>If your code confuses people, is is really optimized?</description>
     </item>
-    
     <item>
       <title>Legacy is Yesterday&#39;s Clean Code</title>
       <link>https://www.pabloborowicz.com/legacy-is-yesterdays-clean-code/</link>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/legacy-is-yesterdays-clean-code/</guid>
       <description>We love to hate the devs who came before us — forgetting we&amp;rsquo;re next in line.</description>
     </item>
-    
     <item>
       <title>Avoid Dotted Lines in Your Monolith</title>
       <link>https://www.pabloborowicz.com/avoid-dotted-lines-in-your-monolith/</link>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/avoid-dotted-lines-in-your-monolith/</guid>
       <description>Half-measures in code charge interest you never agreed to pay.</description>
     </item>
-    
     <item>
       <title>Embracing The Impostor Syndrome</title>
       <link>https://www.pabloborowicz.com/embracing-the-impostor-syndrome/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/embracing-the-impostor-syndrome/</guid>
       <description>During my early career, I was often the most skilled, or most experienced tech guy in the room. But as I learned later in life, that was a bad thing for my career progression.</description>
     </item>
-    
     <item>
       <title>Why You Should Be Commenting Your Code</title>
       <link>https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/</guid>
       <description>Many developers shun inline comments because they don&amp;rsquo;t understand when and where they are useful. They are missing out on incredible value.</description>
     </item>
-    
     <item>
       <title>On houses, debt and software rewrites</title>
       <link>https://www.pabloborowicz.com/on-houses-debt-and-software-rewrites/</link>
       <pubDate>Thu, 06 Sep 2018 13:10:36 +0200</pubDate>
-      
       <guid>https://www.pabloborowicz.com/on-houses-debt-and-software-rewrites/</guid>
       <description>Most non-developers struggle to understand the need for software refactoring. Imagine if you were constantly rebuilding your house.</description>
     </item>
-    
   </channel>
 </rss>

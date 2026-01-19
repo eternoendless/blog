@@ -47,7 +47,7 @@
     <title>Why You Should Be Commenting Your Code &middot; Pablo Borowicz</title>
 
     
-    <meta name="description" content="Many developers shun inline comments because they don&amp;rsquo;t understand when and where they are useful. They are missing out on incredible value." />
+    <meta name="description" content="Many developers shun inline comments because they don&rsquo;t understand when and where they are useful. They are missing out on incredible value." />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -69,37 +69,33 @@
       
       
     
-    <meta name="generator" content="Hugo 0.119.0">
+    <meta name="generator" content="Hugo 0.154.5">
 
     <link rel="canonical" href="https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/" />
 
     
       
-    
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name":  null 
+        "name": "Pablo Borowicz",
+        "logo": "https://www.pabloborowicz.com/images/profile.jpg"
     },
     "author": {
         "@type": "Person",
-        "name":  null ,
+        "name": "Pablo Borowicz",
         
-        "url":  null ,
-        "sameAs": [
-            
-            
-             
-             
-             
-             
-            
-        ],
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.pabloborowicz.com/images/profile.jpg",
+            "width": 250,
+            "height": 250
+        },
+        "sameAs": ["https://github.com/eternoendless","https://www.linkedin.com/in/pabloborowicz"],
         "description": "I'm Pablo Borowicz, a veteran engineering leader. I write about software development, leadership, and more."
-        
     },
     "headline": "Why You Should Be Commenting Your Code",
     "name": "Why You Should Be Commenting Your Code",
@@ -112,23 +108,20 @@
     "url": "https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/",
     "datePublished": "2022-04-22T00:00Z",
     "dateModified": "2022-04-22T00:00Z",
-    
     "image": {
         "@type": "ImageObject",
         "url": "https://www.pabloborowicz.com/images/code-comments.jpg",
         "width": 3000,
         "height": 1445
     },
-    
-    "keywords": "Best Practices, Development, Documentation, PHP",
-    "description": "",
+    "keywords": ["Best Practices","Development","Documentation","PHP"],
+    "description": "Many developers shun inline comments because they don\u0026rsquo;t understand when and where they are useful. They are missing out on incredible value.",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://www.pabloborowicz.com/why-you-should-be-commenting-your-code/"
     }
 }
-    </script>
-    
+</script>
 
 
     
@@ -136,10 +129,10 @@
     
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Y6HWCZ6XJ"></script>
         <script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-1Y6HWCZ6XJ');
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', 'G-1Y6HWCZ6XJ');
         </script>
     
 
@@ -185,6 +178,7 @@
 
 
 
+
     
     
         
@@ -194,7 +188,7 @@
 
     
         
-            <a class="blog-logo" href="https://www.pabloborowicz.com"><span class="logo"></span>Pablo Borowicz</a>
+            <a class="blog-logo" href="https://www.pabloborowicz.com/"><span class="logo"></span>Pablo Borowicz</a>
         
     
 
@@ -338,13 +332,13 @@
 <p>The golden rule for writing good inline comments is to use your common sense. You don&rsquo;t need to explain every single line of code. Instead, add comments to explain what is not self-evident and remains hiding beneath the instruction.</p>
 <p>Explain <em>&ldquo;what&rdquo;</em> the instruction does only when the instruction itself is difficult to understand.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#75715e">// pad the partial result with as many zeros as performed steps
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>$padding <span style="color:#f92672">=</span> <span style="color:#a6e22e">str_pad</span>(<span style="color:#e6db74">&#39;&#39;</span>, $stepNumber, <span style="color:#e6db74">&#39;0&#39;</span>);
+</span></span></span><span style="display:flex;"><span>$padding <span style="color:#f92672">=</span> <span style="color:#a6e22e">str_pad</span>(<span style="color:#e6db74">&#39;&#39;</span>, $stepNumber, <span style="color:#e6db74">&#39;0&#39;</span>);
 </span></span><span style="display:flex;"><span>$partialResult <span style="color:#f92672">=</span> $padding <span style="color:#f92672">.</span> $partialResult;
 </span></span></code></pre></div><p>In most cases, however, good comments explain <em>&ldquo;why&rdquo;</em> that piece of code exists, making the author&rsquo;s intent explicit when it wouldn&rsquo;t be immediately evident otherwise:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ($topNumberLength <span style="color:#f92672">&lt;</span> $bottomNumberLength) {
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// multiplication is commutative, and this algorithm
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// performs better if the bottom number is shorter.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">multiplyStrings</span>($bottomNumber, $topNumber);
+</span></span></span><span style="display:flex;"><span>    <span style="color:#75715e">// performs better if the bottom number is shorter.
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> $this<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">multiplyStrings</span>($bottomNumber, $topNumber);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Intent is often missing in the code: you can know what a code does, but not <em>why</em>. Without making the reasoning explicit, it can only be inferred by performing reverse-engineering, leading to the oh-so-common situation where a developer makes an educated guess, then introduces a bug because they had guessed wrong.</p>
 <h2 id="describe-test-cases">Describe test cases</h2>
@@ -396,13 +390,13 @@
       <section class="labels">
           Topics:
       
-          <span class="post-tag small"><a href="https://www.pabloborowicz.com/tags/best-practices/">#Best Practices</a></span>
+          <span class="post-tag small"><a href="https://www.pabloborowicz.com//tags/best-practices/">#Best Practices</a></span>
       
-          <span class="post-tag small"><a href="https://www.pabloborowicz.com/tags/development/">#Development</a></span>
+          <span class="post-tag small"><a href="https://www.pabloborowicz.com//tags/development/">#Development</a></span>
       
-          <span class="post-tag small"><a href="https://www.pabloborowicz.com/tags/documentation/">#Documentation</a></span>
+          <span class="post-tag small"><a href="https://www.pabloborowicz.com//tags/documentation/">#Documentation</a></span>
       
-          <span class="post-tag small"><a href="https://www.pabloborowicz.com/tags/php/">#PHP</a></span>
+          <span class="post-tag small"><a href="https://www.pabloborowicz.com//tags/php/">#PHP</a></span>
       
       </section>
 
@@ -466,7 +460,6 @@ s.setAttribute('data-timestamp', +new Date());
       <a class="read-next-story" style="background-image: url(/images/impostor.jpg)" href="/embracing-the-impostor-syndrome/">
           <section class="post">
               <h2>Embracing The Impostor Syndrome</h2>
-              
           </section>
       </a>
   
@@ -478,6 +471,7 @@ s.setAttribute('data-timestamp', +new Date());
       </a>
   
 </aside>
+
 
 
 
