@@ -1,4 +1,8 @@
 /src/public/
 /src/resources/
 /.idea/
+/.vscode/
+/.frontmatter/
 /src/.hugo_build.lock
+/tmp/
+frontmatter.json
