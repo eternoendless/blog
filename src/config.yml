@@ -38,6 +38,9 @@ services:
 
 summaryLength: 15
 
+ignoreFiles:
+  - '(^|/)AGENTS\.md$'
+
 permalinks:
   post: "/:slug/"
 
