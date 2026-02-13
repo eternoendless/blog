@@ -4,8 +4,8 @@ date: 2018-09-06T13:10:36+02:00
 image: /images/refactored-house.png
 summary: Most non-developers struggle to understand the need for software refactoring. Imagine if you were constantly rebuilding your house.
 tags:
-  - Development
   - Refactoring
+  - Development
 ---
 
 Most non-developers usually struggle to understand the need for software refactoring and rewrites. They ask: “It’s been working fine until now, why change it? And _why the heck_ would I spend good money to rebuild something that I already have?”.

@@ -6,8 +6,8 @@ imageCopy: AI-generated illustration
 summary: Trust is the foundation of high-performing teams. If you can't trust them, no amount of control will ever be enough.
 tags:
 - "Bite-sized Thoughts"
-- "Management"
 - "Leadership"
+- "Management"
 ---
 
 You inherit a team, or you bring in a new hire. You don't know them. They don't know you. Most managers would play it safe: _"I'll trust them once they prove themselves."_ It feels safe, but it's a mistake.

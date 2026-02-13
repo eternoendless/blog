@@ -5,8 +5,8 @@ image: /images/it-works.jpg
 imageCopy: AI-generated illustration
 summary: Write your rules down before your product forgets how it's supposed to work.
 tags:
-- "Best Practices"
 - "Engineering Culture"
+- "Best Practices"
 - "Engineering Processes"
 ---
 
