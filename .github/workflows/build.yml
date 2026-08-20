@@ -30,7 +30,7 @@ jobs:
           timezoneLinux: Europe/Paris
 
       - name: Build
-        run: cd src/ && hugo
+        run: echo $(date) && cd src/ && hugo
 
       - name: Create a CNAME file which mapping to our custom domain
         run: cd src/ && echo 'www.pabloborowicz.com' > public/CNAME
