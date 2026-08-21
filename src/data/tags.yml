@@ -1,0 +1,32 @@
+ai:
+  description: "Articles about artificial intelligence and its impact on software development."
+architecture:
+  description: "Articles about software architecture and the decisions that shape systems over time."
+best-practices:
+  description: "Practical approaches to building and maintaining better software."
+big-picture-thinking:
+  description: "Articles about looking beyond immediate problems to understand the wider system."
+bite-sized-thoughts:
+  description: "Short observations about software development, leadership, and engineering work."
+career:
+  description: "Thoughts and lessons about navigating a career in technology."
+development:
+  description: "Articles about the craft and practice of software development."
+documentation:
+  description: "Articles about documenting software clearly and effectively."
+engineering-culture:
+  description: "Articles about the values, habits, and systems that shape engineering teams."
+engineering-processes:
+  description: "Articles about designing engineering processes that help teams work effectively."
+leadership:
+  description: "Lessons and perspectives on leading people and engineering organizations."
+lessons-learned:
+  description: "Lessons drawn from experience building software and working with teams."
+management:
+  description: "Articles about managing people, teams, priorities, and organizations."
+php:
+  description: "Articles about PHP development, design, and best practices."
+project-management:
+  description: "Articles about planning, estimating, and delivering software projects."
+refactoring:
+  description: "Articles about improving existing software without losing sight of delivery."
