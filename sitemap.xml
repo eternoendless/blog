@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.pabloborowicz.com/human-error-isnt-a-root-cause/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/tags/best-practices/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/tags/big-picture-thinking/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/tags/engineering-processes/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/post/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.pabloborowicz.com/tags/</loc>
+    <lastmod>2026-08-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.pabloborowicz.com/tags/leadership/</loc>
     <lastmod>2026-06-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,15 +30,6 @@
     <lastmod>2026-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pabloborowicz.com/not-every-decision-is-a-one-way-door/</loc>
-    <lastmod>2026-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/</loc>
-    <lastmod>2026-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/post/</loc>
-    <lastmod>2026-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/tags/</loc>
     <lastmod>2026-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pabloborowicz.com/its-not-your-job-to-solve-the-problem/</loc>
@@ -30,9 +42,6 @@
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pabloborowicz.com/ai-writes-the-code-but-do-you-understand-it/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/tags/best-practices/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pabloborowicz.com/tags/engineering-culture/</loc>
@@ -52,9 +61,6 @@
   </url><url>
     <loc>https://www.pabloborowicz.com/craftsmanship-is-good-but-you-also-need-to-deliver/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.pabloborowicz.com/tags/engineering-processes/</loc>
-    <lastmod>2025-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.pabloborowicz.com/there-are-no-bugs-just-undocumented-features/</loc>
     <lastmod>2025-10-29T00:00:00+00:00</lastmod>
